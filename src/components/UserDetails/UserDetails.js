@@ -37,8 +37,8 @@ function UserDetails() {
                 {
                     users.slice().reverse().map((item) => {
                         return(
-                            <div className="user_card">
-                                <h2>Name : {item.name}</h2><span className="time"><p>{getDate(item.time)}</p></span>
+                            <div key={item._id} className="user_card">
+                                <h2>Name : {item.name}</h2><span className="time">{getDate(item.time)}</span>
                                 <h5>Mobile : {item.mobile}</h5>     <h5>Email : {item.email}</h5>
                                 <h6>Message : {item.message}</h6>
                             </div>

@@ -41,3 +41,41 @@
     height: 100px;
     
 }
+
+@media only screen and (max-width: 600px){
+
+   
+    .user_container{
+        margin: 10px;
+        border: none !important;
+        border-radius: 5px;
+        overflow: none !important;
+    }
+    .user_container .user_card{
+        cursor: pointer;
+        border: 1px solid rgb(185, 184, 184);
+        background-color: whitesmoke;
+        border-radius: 3px;
+        margin: 0px !important;
+        margin-bottom: 20px !important;
+        width: 350px !important;
+        position: relative;
+    }
+    .user_container .user_card h2, h5, h6 {
+        font-size: 13px !important;
+    }
+
+    .user_container .user_card .time{
+        font-size: 8px !important;
+        right: 30px !important;
+        top: 30px !important;
+    }
+
+    .user_container .user_card h6{
+
+        height: 60px !important;
+        width: 300px !important;
+        
+    }
+
+}

@@ -17,7 +17,7 @@ import two2 from '../../Images/Karthikeyan-Amutha/two.jpg';
 import three3 from '../../Images/Karthikeyan-Amutha/three.jpg';
 import four4 from '../../Images/Karthikeyan-Amutha/four.jpg';
 import five5 from '../../Images/Karthikeyan-Amutha/five.jpg';
-import six6 from '../../Images/Karthikeyan-Amutha/six.jpg';
+
 
 
 import one11 from '../../Images/Dhamodharan-Dharshini/one.jpg';

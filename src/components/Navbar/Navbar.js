@@ -50,9 +50,9 @@ function Navbar() {
                 </div>
                 <div className="navbar_media_links">
                     <ul>
-                        <li><a href="/" className="links"><img src="https://img.icons8.com/cute-clipart/2x/twitter.png" alt="instagram" /></a></li>
-                        <li><a href="/" className="links"><img src="https://img.icons8.com/cute-clipart/2x/instagram-new.png" alt="instagram" /></a></li>
-                        <li><a href="/" className="links"><img src="https://img.icons8.com/cute-clipart/2x/facebook-new.png" alt="instagram" /></a></li>
+                        <li><a href="https://twitter.com/JayaSur33406442" className="links"><img src="https://img.icons8.com/cute-clipart/2x/twitter.png" alt="instagram" /></a></li>
+                        <li><a href="https://www.instagram.com/sjs_photography_gifts/" className="links"><img src="https://img.icons8.com/cute-clipart/2x/instagram-new.png" alt="instagram" /></a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100063506108766" className="links"><img src="https://img.icons8.com/cute-clipart/2x/facebook-new.png" alt="instagram" /></a></li>
                     </ul>
                 </div>
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import './Contact.css';
@@ -21,8 +21,6 @@ function Contact() {
 
     })
 
-
-
     const handleChange = (e) => {
         const val = e.target.value;
         setState({
@@ -30,11 +28,9 @@ function Contact() {
             [e.target.name]: val
         })
     }
-
     const handleSubmit = () => {
 
-
-        if (state.name == "" & state.mobile == "" & state.message == "", state.email == "") {
+        if (state.name === "" & state.mobile === "" & state.message === "" & state.email === "") {
             toast.warn('All Feilds Required', {
                 position: "top-right",
                 autoClose: 5000,
@@ -69,10 +65,6 @@ function Contact() {
 
             notify();
         }
-
-
-
-
     }
 
     return (
