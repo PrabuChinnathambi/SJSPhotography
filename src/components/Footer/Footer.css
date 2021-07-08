@@ -1,0 +1,11 @@
+.footer_page{
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+    
+    background-color: gray;
+}
+
+.footer_page p{
+    font-size: 13px;
+}

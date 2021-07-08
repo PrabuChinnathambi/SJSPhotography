@@ -1,0 +1,283 @@
+.gallery_container{
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.gallery_container .gallery_love_content h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: rgb(56, 56, 56);
+}
+
+.gallery_container .gallery_love_content p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #676767;
+    text-align: justify;
+}
+
+.gallery_page .gallery_photos{
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.gallery_page .gallery_photos h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: -webkit-linear-gradient(left, rgb(3, 220, 248), rgb(34, 33, 33));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 380px;
+
+}
+
+.gallery_page .gallery_photos img{
+    width: 550px;
+}
+
+
+
+.gallery_photos .pg_images_Prabhaharan .one{
+    margin: 20px;
+    margin-left: 350px; 
+}
+.gallery_photos .pg_images_Prabhaharan .two{
+    margin: 20px;
+}
+
+.gallery_photos .pg_images_Prabhaharan .three{
+    margin: 20px;
+    margin-left: 80px;
+}
+
+.gallery_photos .pg_images_Prabhaharan .four{
+    margin: 20px;
+}
+
+.gallery_photos .pg_images_Prabhaharan .five{
+    margin: 20px;
+    margin-left: 80px;
+}
+
+.gallery_photos .pg_images_Prabhaharan .six{
+    margin: 20px;
+    margin-left: 350px;   
+}
+
+.gallery_photos .karthikeyan_amutha{
+    margin-top: 30px;
+}
+
+.gallery_photos .karthikeyan_amutha h3{
+    margin-left: 450px;
+}
+
+
+
+.gallery_photos .pg_images_Karthikeyan{
+    padding: 10px;
+}
+
+.gallery_photos .pg_images_Karthikeyan .one{
+    margin: 20px;
+}
+
+.gallery_photos .pg_images_Karthikeyan .two{
+    margin: 20px;
+    margin-left: 60px;
+}
+
+.gallery_photos .pg_images_Karthikeyan .three{
+    margin: 20px;
+    margin-left: 330px;
+}
+
+.gallery_photos .pg_images_Karthikeyan .four{
+    margin: 20px;
+}
+
+.gallery_photos .pg_images_Karthikeyan .five{
+    margin: 20px;
+    margin-left: 60px;
+}
+
+
+.gallery_photos .dhamodharan-dharshini{
+    margin-top: 30px;
+}
+
+.gallery_photos .dhamodharan-dharshini h3{
+    margin-left: 450px;
+}
+
+.gallery_photos .dhamodharan-dharshini .pg_images_dhamodharan{
+    padding: 10px;
+}
+
+.gallery_photos .pg_images_dhamodharan .one{
+    margin: 20px;
+    margin-left: 350px; 
+}
+
+.gallery_photos .pg_images_dhamodharan .two{
+    margin: 20px;
+}
+
+.gallery_photos .pg_images_dhamodharan .three{
+    margin: 20px;
+    margin-left: 60px;
+}
+
+.gallery_photos .pg_images_dhamodharan .four{
+    margin: 20px;
+}
+
+.gallery_photos .pg_images_dhamodharan .five{
+    margin: 20px;
+    margin-left: 60px;
+}
+.gallery_photos .pg_images_dhamodharan .six{
+    margin: 20px;
+    margin-left: 350px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .gallery_container{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .gallery_page .gallery_photos{
+        padding: 0px;
+        
+    }
+    
+    .gallery_page .gallery_photos h3{
+        font-size: 20px;      
+        margin-left: 25px;
+    }
+
+    .gallery_page .gallery_photos img{
+        width: 300px;
+        height: 120px; 
+    }
+    
+    .gallery_photos .pg_images_Karthikeyan, .pg_images_Prabhaharan{
+        -webkit-flex-direction: column; 
+        flex-direction: column; 
+        float: left;
+    }
+    .gallery_container .gallery_photos .dhamodharan-dharshini .pg_images_dhamodharan{
+        -webkit-flex-direction: column; 
+        flex-direction: column; 
+        float: left;
+    }
+      
+  
+    .gallery_photos .pg_images_Prabhaharan .one{
+        margin: 20px;
+        margin-left: 30px; 
+    }
+    .gallery_photos .pg_images_Prabhaharan .two{
+        margin: 20px;
+        margin-left: 30px; 
+    }
+    
+    .gallery_photos .pg_images_Prabhaharan .three{
+        margin: 20px;
+        margin-left: 30px;
+    }
+    
+    .gallery_photos .pg_images_Prabhaharan .four{
+        margin: 20px;
+        margin-left: 30px; 
+    }
+    
+    .gallery_photos .pg_images_Prabhaharan .five{
+        margin: 20px;
+        margin-left: 30px;
+    }
+    
+    .gallery_photos .pg_images_Prabhaharan .six{
+        margin: 20px;
+        margin-left: 30px;   
+    }
+    
+
+    .gallery_photos .karthikeyan_amutha h3{
+        margin-left: 70px;
+    }
+    .gallery_photos .pg_images_Karthikeyan .one{
+        margin: 20px;
+    }
+    
+    .gallery_photos .pg_images_Karthikeyan .two{
+        margin: 20px;
+        margin-left: 20px;
+    }
+    
+    .gallery_photos .pg_images_Karthikeyan .three{
+        margin: 20px;
+        margin-left: 20px;
+    }
+    
+    .gallery_photos .pg_images_Karthikeyan .four{
+        margin: 20px;
+    }
+    
+    .gallery_photos .pg_images_Karthikeyan .five{
+        margin: 20px;
+        margin-left: 20px;
+    }
+    
+    .gallery_photos .dhamodharan-dharshini h3{
+        margin-left: 50px;
+    }
+    
+
+    .gallery_photos .pg_images_dhamodharan .one{
+        margin: 20px;
+        margin-left: 20px; 
+    }
+    
+    .gallery_photos .pg_images_dhamodharan .two{
+        margin: 20px;
+    }
+    
+    .gallery_photos .pg_images_dhamodharan .three{
+        margin: 20px;
+        margin-left: 20px;
+    }
+    
+    .gallery_photos .pg_images_dhamodharan .four{
+        margin: 20px;
+    }
+    
+    .gallery_photos .pg_images_dhamodharan .five{
+        margin: 20px;
+        margin-left: 20px;
+    }
+    .gallery_photos .pg_images_dhamodharan .six{
+        margin: 20px;
+        margin-left: 20px;
+    }
+    
+    
+    
+    
+
+}

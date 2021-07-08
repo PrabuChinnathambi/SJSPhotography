@@ -1,0 +1,151 @@
+.navbar_page{
+    margin: 0;
+    padding: 0;
+    -webkit-box-shadow: 0 5px 6px -6px black;
+    -moz-box-shadow: 0 5px 6px -6px black;
+         box-shadow: 0 5px 6px -6px black;
+    
+}
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    margin-left: 60px;
+    margin-right: 100px;
+    padding-top: -40px;
+}
+
+.navbar_container .slide_menubar{
+    display: none;
+}
+
+.logo_image img {
+    cursor: pointer;
+    width: 160px;
+}
+
+.navbar_links{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.links{
+    margin-left: 10px;
+    color: black;
+}
+
+.links :hover{
+    color: rgb(62, 62, 202);
+}
+
+.navbar_links ul {
+    display: flex;
+
+}
+
+.navbar_links ul, li{
+    margin-left: 10px;
+    list-style-type: none;
+}
+
+.navbar_links .links{
+    text-decoration: none;
+}
+
+.navbar_media_links{
+    margin-top: 20px;
+}
+
+.navbar_media_links ul{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar_media_links ul li img{
+    width: 35px;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	
+    padding: 5px;
+    
+    
+}
+
+.navbar_media_links ul li img:hover{
+
+    box-shadow: 
+		inset 0 3px 0 16px rgba(253, 251, 251, 0.6),
+		0 8px 20px rgba(0,0,0,0.1);
+    
+	transition: all 0.4s ease-in-out;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2c3742;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #dfd7d7;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .navbar_container .slide_menubar{
+        display: block;
+    }
+    .navbar_links{
+      display: none;
+    }
+    .navbar_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center !important;
+        margin: 0px;
+        padding: 10px;
+        margin-right: 0px;
+    }
+    .logo_image img {
+        cursor: pointer;
+        width:80px;
+    }
+    .navbar_media_links{
+        display: none;
+    }
+
+  }
