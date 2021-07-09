@@ -89,15 +89,15 @@ function Contact() {
                             <img src="https://img.icons8.com/ios/2x/apple-phone.png" alt="pin" /> <h3>Call us</h3>
                         </div>
                         <div className="contact_address">
-                            <p>+91 63769296188</p>
+                            <p>+91 6379296188</p>
                             <p>+91 9384293159</p>
                         </div>
                         <div className="contact_heading">
                             <img src="https://img.icons8.com/ios/2x/mail-configuration.png" alt="pin" /> <h3>Email</h3>
                         </div>
                         <div className="contact_address">
-                            <p>+91 63769296188</p>
-                            <p>+91 9384293159</p>
+                            <p>sjsphotos2019@gmail.com</p>
+                            
                         </div>
                     </div>
 
