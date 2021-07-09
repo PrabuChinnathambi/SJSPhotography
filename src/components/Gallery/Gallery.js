@@ -2,6 +2,7 @@ import React, {useEffect} from 'react';
 import './Gallery.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import one from '../../Images/Manoj-Ragusudha/one.jpg';
@@ -56,33 +57,33 @@ function Gallery() {
                     <h3>Manoj Prabhaharan & Ragusudha</h3>
                     <div className="pg_images_Prabhaharan">
                         <img src={one} className="one" alt="" /><br></br>
-                        <img data-aos="fade-right" src={two} className="two" alt="" />
-                        <img data-aos="fade-left" src={three} className="three" alt="" /><br></br>
-                        <img data-aos="fade-right" src={four} className="four" alt="" />
-                        <img data-aos="fade-left" src={five} className="five" alt="" /><br></br>
-                        <img data-aos="flip-down" src={six} className="six" alt="" /><br></br>
+                        <img data-aos="zoom-in" src={two} className="two" alt="" />
+                        <img data-aos="zoom-in" src={three} className="three" alt="" /><br></br>
+                        <img data-aos="zoom-in" src={four} className="four" alt="" />
+                        <img data-aos="zoom-in" src={five} className="five" alt="" /><br></br>
+                        <img data-aos="zoom-in" src={six} className="six" alt="" /><br></br>
                     </div>
                 </div>
                 <div className="karthikeyan_amutha"> 
                     <h3>Karthikeyan & Amutha</h3>
                     <div className="pg_images_Karthikeyan">
-                        <img data-aos="fade-right" src={one1} className="one" alt="" />
-                        <img data-aos="fade-left" src={two2} className="two" alt="" />
-                        <img data-aos="flip-down" src={three3} className="three" alt="" /><br></br>
-                        <img data-aos="fade-right" src={four4} className="four" alt="" />
-                        <img data-aos="fade-left" src={five5} className="five" alt="" /><br></br>
+                        <img data-aos="zoom-in" src={one1} className="one" alt="" />
+                        <img data-aos="zoom-in" src={two2} className="two" alt="" />
+                        <img data-aos="zoom-in" src={three3} className="three" alt="" /><br></br>
+                        <img data-aos="zoom-in" src={four4} className="four" alt="" />
+                        <img data-aos="zoom-in" src={five5} className="five" alt="" /><br></br>
                         
                     </div>
                 </div>
                 <div className="dhamodharan-dharshini"> 
                     <h3>Dhamodharan & Dharshini</h3>
                     <div className="pg_images_dhamodharan">
-                        <img data-aos="flip-down" src={one11} className="one" alt="" /><br></br>
-                        <img data-aos="fade-right" src={two22} className="two" alt="" />
-                        <img data-aos="fade-left" src={three33} className="three" alt="" /><br></br>
-                        <img data-aos="fade-right" src={four44} className="four" alt="" />
-                        <img data-aos="fade-left" src={five55} className="five" alt="" /><br></br>
-                        <img data-aos="flip-down" src={six66} className="six" alt="" /><br></br>
+                        <img data-aos="zoom-in" src={one11} className="one" alt="" /><br></br>
+                        <img data-aos="zoom-in" src={two22} className="two" alt="" />
+                        <img data-aos="zoom-in" src={three33} className="three" alt="" /><br></br>
+                        <img data-aos="zoom-in" src={four44} className="four" alt="" />
+                        <img data-aos="zoom-in" src={five55} className="five" alt="" /><br></br>
+                        <img data-aos="zoom-in" src={six66} className="six" alt="" /><br></br>
                         
                     </div>
                 </div>
