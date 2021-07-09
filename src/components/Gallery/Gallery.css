@@ -168,7 +168,7 @@
     
     .gallery_page .gallery_photos h3{
         font-size: 20px;      
-        margin-left: 25px;
+        margin-left: 35px !important;
     }
 
     .gallery_page .gallery_photos img{
@@ -190,90 +190,94 @@
   
     .gallery_photos .pg_images_Prabhaharan .one{
         margin: 20px;
-        margin-left: 30px; 
+        margin-left: 40px; 
     }
     .gallery_photos .pg_images_Prabhaharan .two{
         margin: 20px;
-        margin-left: 30px; 
+        margin-left: 40px; 
     }
     
     .gallery_photos .pg_images_Prabhaharan .three{
         margin: 20px;
-        margin-left: 30px;
+        margin-left: 40px;
     }
     
     .gallery_photos .pg_images_Prabhaharan .four{
         margin: 20px;
-        margin-left: 30px; 
+        margin-left: 40px; 
     }
     
     .gallery_photos .pg_images_Prabhaharan .five{
         margin: 20px;
-        margin-left: 30px;
+        margin-left: 40px;
     }
     
     .gallery_photos .pg_images_Prabhaharan .six{
         margin: 20px;
-        margin-left: 30px;   
+        margin-left: 40px;   
     }
     
 
     .gallery_photos .karthikeyan_amutha h3{
-        margin-left: 70px;
+        margin-left: 65px !important;
     }
     .gallery_photos .pg_images_Karthikeyan .one{
         margin: 20px;
+        margin-left: 30px !important;
     }
     
     .gallery_photos .pg_images_Karthikeyan .two{
         margin: 20px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     .gallery_photos .pg_images_Karthikeyan .three{
         margin: 20px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     .gallery_photos .pg_images_Karthikeyan .four{
         margin: 20px;
+        margin-left: 30px !important;
     }
     
     .gallery_photos .pg_images_Karthikeyan .five{
         margin: 20px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     .gallery_photos .dhamodharan-dharshini h3{
-        margin-left: 50px;
+        margin-left: 60px !important;
     }
     
 
     .gallery_photos .pg_images_dhamodharan .one{
         margin: 20px;
-        margin-left: 20px; 
+        margin-left: 30px !important; 
     }
     
     .gallery_photos .pg_images_dhamodharan .two{
         margin: 20px;
+        margin-left: 30px !important;
     }
     
     .gallery_photos .pg_images_dhamodharan .three{
         margin: 20px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     .gallery_photos .pg_images_dhamodharan .four{
         margin: 20px;
+        margin-left: 30px !important;
     }
     
     .gallery_photos .pg_images_dhamodharan .five{
         margin: 20px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     .gallery_photos .pg_images_dhamodharan .six{
         margin: 20px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     
