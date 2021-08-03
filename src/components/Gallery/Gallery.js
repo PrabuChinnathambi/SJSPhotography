@@ -35,7 +35,7 @@ function Gallery() {
     useEffect(() => {
         AOS.init({
             // initialise with other settings
-            duration : 2500
+            duration : 1500
           });
         AOS.refresh();
       }, []);
